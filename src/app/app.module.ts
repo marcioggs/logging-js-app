@@ -7,10 +7,12 @@ import { LoggerModule } from 'ngx-logger';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from './../environments/environment';
+import { LogComponent } from './log/log.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogComponent
   ],
   imports: [
     BrowserModule,
