@@ -2,11 +2,11 @@
 
 A sample Angular logging app that can log on the web browser console or via an HTTP POST endpoint using [ngx-logger](https://github.com/dbfannin/ngx-logger).
 
-## Log message example:
+## Log message example
 ```
 2020-03-19T08:34:51.133Z FATAL [./src/app/log/log.component.ts:21] This is a FATAL level log message.
 ```
-## App screen:
+## App screen
 
 ![Logging app screenshot](.github/screenshot.png)
 
